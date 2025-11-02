@@ -17,6 +17,6 @@ output "instance_ami" {
 }
 
 output "instance_public_dns" {
-  descrption  = "State of the DNS"
+  description = "State of the DNS"
   value       = public_dns
 }
