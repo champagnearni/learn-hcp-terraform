@@ -15,3 +15,8 @@ output "instance_ami" {
   description = "AMI used to create the EC2 instance."
   value       = aws_instance.app_server.ami
 }
+
+output "instance_public_dns" {
+  description = "State of the DNS"
+  value       = aws_instance.app_server.public_dns
+}
