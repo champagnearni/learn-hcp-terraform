@@ -18,5 +18,5 @@ output "instance_ami" {
 
 output "instance_public_dns" {
   description = "State of the DNS"
-  value       = public_dns
+  value       = aws_instance.app_server.public_dns
 }
